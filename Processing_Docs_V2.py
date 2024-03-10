@@ -174,7 +174,7 @@ def pdf():
 
                 # Display the image with bounding boxes (if drawn)
                     
-                cv2.imwrite("output_image"+str(counter)+".jpg", img)
+                cv2.imwrite(out_directory + "\output_image"+str(counter)+".jpg", img)
 
 
                 # Finally, write the processed text to the file.
